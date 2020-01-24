@@ -33,7 +33,7 @@ public class BaseTest {
 		try {
 			// reading the property file
 			prop=new Properties();
-			FileInputStream fis=new FileInputStream(GenericLib.propertyfilePath);
+			FileInputStream fis=new FileInputStream(GenericLib.propertyfilePath1);
 			try {
 				prop.load(fis);
 			} catch (IOException e) {
