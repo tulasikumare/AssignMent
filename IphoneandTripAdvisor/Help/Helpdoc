@@ -1,0 +1,9 @@
+
+Execution Note
+1. Before execution IphonePriceComparisonTest need to change Line number 82 From 
+  driver.get(prop.getProperty("trip")); To  driver.get(prop.getProperty("amazonurl")); 
+  in BaseTest
+ 
+2.  Before execution TriAdvisorTest need to change Line number 82 From 
+  driver.get(prop.getProperty("amazonurl")); To  river.get(prop.getProperty("trip")); 
+  in BaseTest
